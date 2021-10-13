@@ -1,3 +1,3 @@
-# Dictionary discord bot
+Dictionary Discord Bot
 
-collaberation with @rudradip08
+First Collaboration with @rudradip08 aka my friend
