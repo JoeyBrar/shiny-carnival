@@ -29,6 +29,8 @@ async def on_command_error(ctx, error):
     if isinstance(error, commands.MissingRequiredArgument):
         await ctx.send('pass in all required arguments pls')
 
+
+
 # Dictionary command:
 
 
