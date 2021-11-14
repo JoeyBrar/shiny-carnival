@@ -4,12 +4,14 @@ except Exception as e:
     print(f"{e}")
 
 def define_word(word):
+    response=[]
     dictionary=PyDictionary()
     full_definition = dictionary.meaning(word)
-    #return full_definition
-    word_type = list(full_definition.keys())[0]
-    print(word_type)
-    lst_definitions = full_definition.get("Noun")
-    for i in lst_definitions:
-        print(i)
-    return "COMMAND DONE"
+    for index1, i1 in enumerate(full_definition):
+        word_type = list(full_definition.keys())[index1]
+        lst_definitions = full_definition.get(word_type)
+        full_def=[]
+        full_def.append(word_type)
+        full_def+=lst_definitions
+        response.append(full_def)
+    return response
