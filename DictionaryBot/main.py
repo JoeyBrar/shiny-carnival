@@ -37,10 +37,3 @@ async def say(ctx, *, question):
 # DM me for token
 # Replace with 'test' after use
 client.run('test')
-
-
-# ------------------------------------------------------------------------------------
-# Dont commit or push with actual token
-# Token: Not decided yet
-# Replace with 'test' after use
-client.run('test') 
